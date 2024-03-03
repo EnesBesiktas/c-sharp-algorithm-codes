@@ -505,16 +505,7 @@ namespace ptg_final_çalışma
 
         #endregion
         
-        #region Deneme
-
-        static void Main(string[] args)
-        {
-
-        Console.WriteLine("merhaba");
-        }
-
-		#endregion
-
+    
 
 
 	}
