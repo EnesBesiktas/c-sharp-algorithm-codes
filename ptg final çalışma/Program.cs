@@ -468,31 +468,31 @@ namespace ptg_final_çalışma
         #endregion
 
         #region Faktöriyel bulma
-        static void Main(string[] args)
-        {
-            başadön:
+        //static void Main(string[] args)
+        //{
+        //    başadön:
 
-            Console.WriteLine("lütfen faktöriyelini bulmak istediğiniz sayıyı giriniz");
+        //    Console.WriteLine("lütfen faktöriyelini bulmak istediğiniz sayıyı giriniz");
 
-            int sayi = int.Parse(Console.ReadLine());
+        //    int sayi = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("faktöriyeli: " + faktöriyelBul(sayi));
-            goto başadön;
+        //    Console.WriteLine("faktöriyeli: " + faktöriyelBul(sayi));
+        //    goto başadön;
 
-        }
-        static int faktöriyelBul(int sayi)
-        {
+        //}
+        //static int faktöriyelBul(int sayi)
+        //{
 
-            int faktöriyel = 1;
-            if (sayi == 0) { faktöriyel = 0; }
+        //    int faktöriyel = 1;
+        //    if (sayi == 0) { faktöriyel = 0; }
             
-            for (int i = 1; i <= sayi; i++)
-            {
-                faktöriyel = faktöriyel * i;
-            }
-            return faktöriyel;
+        //    for (int i = 1; i <= sayi; i++)
+        //    {
+        //        faktöriyel = faktöriyel * i;
+        //    }
+        //    return faktöriyel;
 
-        }
+        //}
 
 
 
@@ -504,8 +504,18 @@ namespace ptg_final_çalışma
 
 
         #endregion
+        
+        #region Deneme
+
+        static void Main(string[] args)
+        {
+
+        Console.WriteLine("merhaba");
+        }
+
+		#endregion
 
 
 
-    }
+	}
 }
